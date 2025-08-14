@@ -12,7 +12,7 @@ validation.py: This is the main script for running inference on the trained mode
 requirements.txt: Contains the required Python packages for the repository.
 
 ## Requirements
-The requirements.txt file contains the necessary dependencies, which include common deep learning frameworks like TensorFlow or PyTorch, along with any custom dependencies for this repository.
+The requirements.txt file contains the necessary dependencies, which include common deep learning frameworks, along with any custom dependencies for this repository.
 
 pip install -r requirements.txt
 
