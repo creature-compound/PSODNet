@@ -1,15 +1,15 @@
 # PSODNet
-Directory Structure
+以下是本仓库的结构：
 
-backbone/: Contains the backbone network for feature extraction.
+backbone/: 存储着特征提取的backbone.
 
-network_files/: Includes all the components related to the model architecture, layers.
+network_files/: 包含着整个模型的网络结构定义.
 
-train_utils/: Provides utilities related to training, including data loading, augmentation, and loss functions.
+train_utils/: 提供训练所需的程序，如损失函数计算，数据增强等部分.
 
-validation.py: This is the main script for running inference on the trained model. It loads the model and evaluates it on a dataset, generating the necessary outputs.
+validation.py: 提供验证的程序.
 
-requirements.txt: Contains the required Python packages for the repository.
+requirements.txt: 安装依赖项.
 
 ## Requirements
 The requirements.txt file contains the necessary dependencies, which include common deep learning frameworks, along with any custom dependencies for this repository.
